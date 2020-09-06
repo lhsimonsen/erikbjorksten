@@ -2,6 +2,7 @@ baseURL = "https://lhsimonsen.github.io/erikbjorksten"
 theme   = "sk1"
 languageCode = "en-us"
 title = "My New Hugo Site"
+publishDir = "docs"
 
 [Params]
 mainSections = "post"
