@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://lhsimonsen.github.io/erikbjorksten/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://lhsimonsen.github.io/erikbjorksten/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://lhsimonsen.github.io/erikbjorksten/about/</link>
+      <pubDate>Sun, 06 Sep 2020 17:42:20 +0200</pubDate>
+      
+      <guid>https://lhsimonsen.github.io/erikbjorksten/about/</guid>
+      <description>Hej! Här e jag</description>
+    </item>
+    
+  </channel>
+</rss>
