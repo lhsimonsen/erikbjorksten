@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #222;
+
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@media (max-width: 640px) {
+  body {
+    background-image: -webkit-image-set( url('/img/bg-xs.jpg') 1x, url('/img/bg-xs-2x.jpg') 2x );
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  body {
+    background-image: -webkit-image-set( url('/img/bg-sm.jpg') 1x, url('/img/bg-sm-2x.jpg') 2x );
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-image: -webkit-image-set( url('/img/bg-lg.jpg') 1x, url('/img/bg-lg-2x.jpg') 2x );
+ }
+}
+
+/*
+  At this time, adding `position: sticky;` to an element is a way to test
+  that Autoprefixer is set up correctly.
+  When you inspect the element, you should also see `position: -webkit-sticky;`.
+*/
+
+/* h1 {
+  position: sticky;
+} */
