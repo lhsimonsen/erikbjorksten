@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Erik Björksten</title>
+    <link>https://lhsimonsen.github.io/erikbjorksten/</link>
+    <description>Recent content on Erik Björksten</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lhsimonsen.github.io/erikbjorksten/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://lhsimonsen.github.io/erikbjorksten/about/</link>
       <pubDate>Mon, 09 Mar 2020 09:55:36 -0500</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://lhsimonsen.github.io/erikbjorksten/about/</guid>
       <description>Erik Björksten It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &#39;lorem ipsum&#39; will uncover many web sites still in their infancy.</description>
     </item>
     
     <item>
       <title>Press</title>
-      <link>http://example.org/press/</link>
+      <link>https://lhsimonsen.github.io/erikbjorksten/press/</link>
       <pubDate>Mon, 09 Mar 2020 09:55:36 -0500</pubDate>
       
-      <guid>http://example.org/press/</guid>
+      <guid>https://lhsimonsen.github.io/erikbjorksten/press/</guid>
       <description></description>
     </item>
     
