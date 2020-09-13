@@ -3,20 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lhsimonsen.github.io/erikbjorksten/about/</loc>
-    <lastmod>2020-09-06T17:42:20+02:00</lastmod>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-03-09T09:55:36-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lhsimonsen.github.io/erikbjorksten/categories/</loc>
+    <loc>http://example.org/press/</loc>
+    <lastmod>2020-03-09T09:55:36-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lhsimonsen.github.io/erikbjorksten/</loc>
+    <loc>http://example.org/categories/</loc>
   </url>
   
   <url>
-    <loc>https://lhsimonsen.github.io/erikbjorksten/tags/</loc>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
   </url>
   
 </urlset>
