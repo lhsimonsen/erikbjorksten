@@ -4,30 +4,22 @@
 @tailwind utilities;
 
 body {
-  background-position: center center; 
-  background-attachment: fixed; 
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #222;
   font-family: 'IBM Plex Mono', monospace;
 }
 
-@media (max-width: 640px) {
-  body {
-    background-image: -webkit-image-set( url('/img/bg-xs.jpg') 1x, url('/img/bg-xs-2x.jpg') 2x );
-  }
+
+.bg {
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../static/img/stars-1280w.jpg");
 }
 
-@media (min-width: 641px) and (max-width: 1024px) {
-  body {
-    background-image: -webkit-image-set( url('/img/bg-sm.jpg') 1x, url('/img/bg-sm-2x.jpg') 2x );
-  }
-}
-
-@media (min-width: 1025px) {
-  body {
-    background-image: -webkit-image-set( url('/img/bg-lg.jpg') 1x, url('/img/bg-lg-2x.jpg') 2x );
- }
+.bg img {
+  width: 100%;
+  max-width: 200px;
 }
 
 /*
