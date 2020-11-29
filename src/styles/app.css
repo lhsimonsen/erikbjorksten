@@ -4,28 +4,18 @@
 @tailwind utilities;
 
 body {
-  background-color: #222;
+  background-color: #f7fafc;
   font-family: 'IBM Plex Mono', monospace;
   line-height: 1.7;
   font-size: 16px;
+  color: #222;
 }
 
 .bg {
   background-position: center center; 
-  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../static/img/stars-1280w.jpg");
-}
-
-.bg img {
-  width: 100%;
-  max-width: 70px;
-}
-
-.bg-variant {
-  height: 350px;
-  background-image: url("../../static/img/erik-1280w.jpg");
+  background-image: url("../../static/img/bg-stars-1280w.jpg");
 }
 
 @media only screen and (min-width: 768px) {
@@ -39,12 +29,14 @@ body {
   }
 }
 
-/*
-  At this time, adding `position: sticky;` to an element is a way to test
-  that Autoprefixer is set up correctly.
-  When you inspect the element, you should also see `position: -webkit-sticky;`.
-*/
+.masonry {
+  column-count: 2;
+  column-gap: 0.5rem;
+}
 
-/* h1 {
-  position: sticky;
-} */
+@media only screen and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
