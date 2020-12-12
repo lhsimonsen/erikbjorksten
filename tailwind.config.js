@@ -3,7 +3,10 @@ module.exports = {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
-  purge: ['./layouts/**/*.html', './content/**/*.md', './content/**/*.html'],
+  purge: {
+    enabled: true,
+    content: ['./**/*.html'],
+  },
   theme: {
     extend: {
       maxWidth: {
