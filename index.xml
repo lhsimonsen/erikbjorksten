@@ -10,14 +10,5 @@
 	<atom:link href="https://lhsimonsen.github.io/erikbjorksten/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>About</title>
-      <link>https://lhsimonsen.github.io/erikbjorksten/about2/</link>
-      <pubDate>Mon, 09 Mar 2020 09:55:36 -0500</pubDate>
-      
-      <guid>https://lhsimonsen.github.io/erikbjorksten/about2/</guid>
-      <description> Erik Björksten  Creative Freelancer Gothenburg&amp;#8226;Sweden   Kontaktuppgifter E-mail: kontakt@erikbjorksten.se  Facebook   Instagram  Youtube   </description>
-    </item>
-    
   </channel>
 </rss>
